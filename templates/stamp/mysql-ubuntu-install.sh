@@ -128,7 +128,14 @@ install_mysql_server()
     elif (( $(echo "$OS_VER > 16" | bc -l) )) && (( $(echo "$PACKAGE_VERSION < 5.7" | bc -l) ))
     then
         # Allows sql 5.6 on ubuntu 16
-        add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
+        # add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
+        package=${PACKAGE_NAME}
+
+        debFileName=mysql-apt-config_0.8.0-1_all
+        wget -q http://dev.mysql.com/get/$debFileName.deb -O $debFileName.deb
+        echo mysql-apt-config mysql-apt-config/select-product select Ok | debconf-set-selections
+        dpkg -i $debFileName.deb
+        rm $debFileName*
     fi
 
     apt-get -y -qq update
