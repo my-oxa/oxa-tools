@@ -27,7 +27,7 @@
             "value": "lexoxaadmin"
         },
         "adminPublicKey": {
-            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvFb1gnXaLVBmdBLa/9IYPqs4lJj/3db+DK9zkQqMZJWctPyJOwyPBrF3o9bu8WipYSFEfe/cbIimvuEUkEjPqeTl7HzIiQ+Vr7xSfxLIRQkbHZ+BsO5bp8J+UlcL/dYOjwu4fUN1oUYsUEeM+RN3F0rG1p5EP5ydaxutNw3qqz/5aT1dE9+JYLCceK+dQkvP3tnliaCQN1fHoTVdaYounNhUc+RX3CJxQneeKZCKWtoNVGr/EF/J0huvCgxgVzrWkLedMNj0QQKC5bmZL19BRbRDvIAsCdyESOiwjNatyMTtPnlLoMLBf0sMtDw+bc0F4R4fx94ESUBDx2dFTh9JBetPqZBgQVJUij4uVruzT6gfspGLonWJNvPA6MQMuLaY7r+0B4RnH2zAfn/PBzqj+AgTCQLctxh1bR6V5J6u1m3952xrRPmRF/7tqHNUwnJiENrNs6u+lp7FZcga0pUv2dIvIv3GzL/KhHP24hgpjZcfDY27vVKFtLGrdW48KU2uk5+iKtly0rGLyLnNfxAxsKGrWKRuhZd3o4EM92W/a+zDYbaxwYdnh+bFqLWJl2F2gdFgqOJFHR6gMjJ+7QR//PwEwllsPoxdlxXmbPGzpHAUMrH6rIjvhnTmhywU+rCceWlVVM2d+bSieNEpArGihIra5dUgPPNJ+y/BFL5yb9w== CS_HD@DESKTOP-GLIKS67"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1hxp1rMjoEZSlJZNFkXNDFviWfAb2aH9k1lSaKWYzMej7vjqI6zUY+WKOL+k21rRnAMeQhUQQg2tOFI7I1m/2coEsOu9ewKarcx3XvO4TYa7PYQm3VkHvd3uASUb10IoIzjSLe4WhvDqRZuESf6LHrh1zrpSSbHTX5kqyyOvZMyva6fcDz9RA0anKYZXoPifZSaDILPiUuq6x44pKQrWj16Lf5yQBustGhtEx/n3DmybOPvFGRpiz9QGVVvUrzSCkVrVCQfN6nSvPsmi11lO5KCaKwLR2E3HUW42qDsinAQHOSOgYZXqT+SgCt4H7ku8HYSM6h4ap7XZ4afYO2c3WSGjCDr0EA4H9ec1KdkLAdLRlZbagdzXgz5mL2rRf1Urz2mlO0krSLIKFnUBZrEqXr39FjjaooxHo7daGgDRV3T8zXbM0cnPqIwv3s78iTx93P/2Xqz+lnY7rXCYURAbZE5tqdERc1Jfd4xgkx+bHNgIh+b3TVne/8gVbUUqhwb5rehTYZ2Yep5xUSKvWB6feJLTz0jK2eUeA28gE/E3Da7Agsi6PwmfvhpsBOnlVsUIPWg4KLbFrtRHY3utCMxQYBtxKXUd1b9Mzvkn3h+Tm0pfzrXAsYo0ItKRAYhu2Kq3aa7H6UIOj6A74n1B0WncXk4L3nuMvUo8Z0u+8T78DKw== CS_HD@DESKTOP-GLIKS67"
         },
         "mongoServerAdminUserName": {
             "value": "oxamongoadmin"
@@ -51,7 +51,7 @@
             "value": "{SERVICEACCOUNTPASSWORD}"
         },
         "mysqlBackupUserName": {
-            "value": "oxamysqlbackupuser"
+            "value": "oxamysqlbackup"
         },
         "mysqlBackupUserPassword": {
             "value": "{SERVICEACCOUNTPASSWORD}"
